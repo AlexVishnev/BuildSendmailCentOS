@@ -3,4 +3,4 @@ FROM centos:6
 RUN yum groupinstall -y Development tools && yum install -y db4-devel rsyslog valgrind curl
 
 
-ENTRYPOINT [ "./docker-entry.sh" ]
+CMD [ "/bin/bash" ]
