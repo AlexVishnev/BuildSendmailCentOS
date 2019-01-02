@@ -14,4 +14,4 @@ ENV LD_LIBRARY_PATH=/usr/local/lib/
 COPY docker-entry.sh /usr/local/bin/ 
 RUN ln -sf usr/local/bin/docker-entry.sh /
 
-ENTRYPOINT ["./docker-entrypoint.sh"]
+ENTRYPOINT ["./docker-entry.sh"]
