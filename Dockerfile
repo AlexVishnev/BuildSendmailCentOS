@@ -1,5 +1,5 @@
-FROM scratch
-MAINTAINER https://github.com/CentOS/sig-cloud-instance-images
+FROM centos
+MAINTAINER https://github.com/AlexVishnev/BuildSendmailCentOS
 #ADD centos-6-docker.tar.xz /
 
 LABEL org.label-schema.schema-version="1.0" \
